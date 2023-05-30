@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41814A2E2A1F9A9700EB79E5 /* DinoARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41814A2D2A1F9A9700EB79E5 /* DinoARApp.swift */; };
+		41814A302A1F9A9700EB79E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41814A2F2A1F9A9700EB79E5 /* ContentView.swift */; };
+		41814A322A1F9A9800EB79E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41814A312A1F9A9800EB79E5 /* Assets.xcassets */; };
+		41814A352A1F9A9800EB79E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41814A342A1F9A9800EB79E5 /* Preview Assets.xcassets */; };
+		41814A3C2A1F9AF400EB79E5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41814A3B2A1F9AF400EB79E5 /* HomeScreen.swift */; };
+		41814A432A1F9F5100EB79E5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41814A422A1F9F5100EB79E5 /* Card.swift */; };
+		41814A452A1F9F7600EB79E5 /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41814A442A1F9F7600EB79E5 /* CardDetail.swift */; };
+		41814A472A1F9F9200EB79E5 /* ARScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41814A462A1F9F9200EB79E5 /* ARScreen.swift */; };
+		41814A492A1F9FB400EB79E5 /* ARPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41814A482A1F9FB400EB79E5 /* ARPage.swift */; };
+		41814A4B2A1F9FFA00EB79E5 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41814A4A2A1F9FFA00EB79E5 /* Animal.swift */; };
+		41814A4C2A1FA0E000EB79E5 /* Dino3D.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 41814A3F2A1F9BB000EB79E5 /* Dino3D.rcproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41814A2A2A1F9A9700EB79E5 /* DinoAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinoAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41814A2D2A1F9A9700EB79E5 /* DinoARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoARApp.swift; sourceTree = "<group>"; };
+		41814A2F2A1F9A9700EB79E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41814A312A1F9A9800EB79E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41814A342A1F9A9800EB79E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41814A3B2A1F9AF400EB79E5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		41814A3F2A1F9BB000EB79E5 /* Dino3D.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Dino3D.rcproject; sourceTree = "<group>"; };
+		41814A422A1F9F5100EB79E5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		41814A442A1F9F7600EB79E5 /* CardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetail.swift; sourceTree = "<group>"; };
+		41814A462A1F9F9200EB79E5 /* ARScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScreen.swift; sourceTree = "<group>"; };
+		41814A482A1F9FB400EB79E5 /* ARPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPage.swift; sourceTree = "<group>"; };
+		41814A4A2A1F9FFA00EB79E5 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41814A272A1F9A9700EB79E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41814A212A1F9A9700EB79E5 = {
+			isa = PBXGroup;
+			children = (
+				41814A2C2A1F9A9700EB79E5 /* DinoAR */,
+				41814A2B2A1F9A9700EB79E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41814A2B2A1F9A9700EB79E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41814A2A2A1F9A9700EB79E5 /* DinoAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41814A2C2A1F9A9700EB79E5 /* DinoAR */ = {
+			isa = PBXGroup;
+			children = (
+				41814A2D2A1F9A9700EB79E5 /* DinoARApp.swift */,
+				41814A2F2A1F9A9700EB79E5 /* ContentView.swift */,
+				41814A3B2A1F9AF400EB79E5 /* HomeScreen.swift */,
+				41814A422A1F9F5100EB79E5 /* Card.swift */,
+				41814A442A1F9F7600EB79E5 /* CardDetail.swift */,
+				41814A462A1F9F9200EB79E5 /* ARScreen.swift */,
+				41814A482A1F9FB400EB79E5 /* ARPage.swift */,
+				41814A4A2A1F9FFA00EB79E5 /* Animal.swift */,
+				41814A3F2A1F9BB000EB79E5 /* Dino3D.rcproject */,
+				41814A312A1F9A9800EB79E5 /* Assets.xcassets */,
+				41814A332A1F9A9800EB79E5 /* Preview Content */,
+			);
+			path = DinoAR;
+			sourceTree = "<group>";
+		};
+		41814A332A1F9A9800EB79E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41814A342A1F9A9800EB79E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41814A292A1F9A9700EB79E5 /* DinoAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41814A382A1F9A9800EB79E5 /* Build configuration list for PBXNativeTarget "DinoAR" */;
+			buildPhases = (
+				41814A262A1F9A9700EB79E5 /* Sources */,
+				41814A272A1F9A9700EB79E5 /* Frameworks */,
+				41814A282A1F9A9700EB79E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinoAR;
+			productName = DinoAR;
+			productReference = 41814A2A2A1F9A9700EB79E5 /* DinoAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41814A222A1F9A9700EB79E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					41814A292A1F9A9700EB79E5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 41814A252A1F9A9700EB79E5 /* Build configuration list for PBXProject "DinoAR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41814A212A1F9A9700EB79E5;
+			productRefGroup = 41814A2B2A1F9A9700EB79E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41814A292A1F9A9700EB79E5 /* DinoAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41814A282A1F9A9700EB79E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41814A352A1F9A9800EB79E5 /* Preview Assets.xcassets in Resources */,
+				41814A322A1F9A9800EB79E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41814A262A1F9A9700EB79E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41814A452A1F9F7600EB79E5 /* CardDetail.swift in Sources */,
+				41814A4B2A1F9FFA00EB79E5 /* Animal.swift in Sources */,
+				41814A492A1F9FB400EB79E5 /* ARPage.swift in Sources */,
+				41814A4C2A1FA0E000EB79E5 /* Dino3D.rcproject in Sources */,
+				41814A302A1F9A9700EB79E5 /* ContentView.swift in Sources */,
+				41814A2E2A1F9A9700EB79E5 /* DinoARApp.swift in Sources */,
+				41814A3C2A1F9AF400EB79E5 /* HomeScreen.swift in Sources */,
+				41814A472A1F9F9200EB79E5 /* ARScreen.swift in Sources */,
+				41814A432A1F9F5100EB79E5 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41814A362A1F9A9800EB79E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41814A372A1F9A9800EB79E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41814A392A1F9A9800EB79E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinoAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 2QS86677ZL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "DinoAR camera use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = everyone.DinoAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41814A3A2A1F9A9800EB79E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinoAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 2QS86677ZL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "DinoAR camera use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = everyone.DinoAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41814A252A1F9A9700EB79E5 /* Build configuration list for PBXProject "DinoAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41814A362A1F9A9800EB79E5 /* Debug */,
+				41814A372A1F9A9800EB79E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41814A382A1F9A9800EB79E5 /* Build configuration list for PBXNativeTarget "DinoAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41814A392A1F9A9800EB79E5 /* Debug */,
+				41814A3A2A1F9A9800EB79E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41814A222A1F9A9700EB79E5 /* Project object */;
+}

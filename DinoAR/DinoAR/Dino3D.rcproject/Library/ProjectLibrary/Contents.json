@@ -1,0 +1,32 @@
+[
+  {
+    "libraryIdentifier" : "b627f6e442760ac58fdd43d642301fef",
+    "format" : "model",
+    "displayName" : "Mosasaurus.usdz"
+  },
+  {
+    "libraryIdentifier" : "e30b40493be9f3d7ab4b744510d93e2e",
+    "format" : "model",
+    "displayName" : "Triceratops.usdz"
+  },
+  {
+    "libraryIdentifier" : "9c3a9e9a00a2ab8e7ab0abeee160c626",
+    "format" : "model",
+    "displayName" : "Spinosaurus_animation.usdz"
+  },
+  {
+    "libraryIdentifier" : "92fcbc19bbd734487d7808dd1c8b9435",
+    "format" : "model",
+    "displayName" : "Mamen_River_Dragon.usdz"
+  },
+  {
+    "libraryIdentifier" : "eefde7ab9a22addbeb889c852fed53fd",
+    "format" : "model",
+    "displayName" : "Velociraptor.usdz"
+  },
+  {
+    "libraryIdentifier" : "fcd7d67d60cb48d9105cafc90b8429a9",
+    "format" : "model",
+    "displayName" : "Pteranodon_Animated.usdz"
+  }
+]
